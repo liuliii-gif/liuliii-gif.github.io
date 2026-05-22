@@ -1,0 +1,32 @@
+title: liuliii-gif's Homepage
+email: liuliii@example.com
+description: >-
+  Welcome to my personal website! This is where I share my projects, thoughts, and experiences.
+baseurl: ""
+url: "https://liuliii-gif.github.io"
+twitter_username: liuliii_gif
+github_username: liuliii-gif
+author: liuliii-gif
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Theme customization
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github, user_url: "https://github.com/liuliii-gif" }
+    - { platform: twitter, user_url: "https://twitter.com/liuliii_gif" }
