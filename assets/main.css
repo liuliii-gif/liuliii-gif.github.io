@@ -249,11 +249,13 @@ section.visible {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 20px 80px;
+  overflow: visible;
 }
 
 .hero-content {
   max-width: 800px;
+  padding-bottom: 40px;
 }
 
 .avatar-wrapper {
@@ -1760,7 +1762,7 @@ section.visible {
   }
   
   .hero-section {
-    padding: 20px 16px;
+    padding: 20px 16px 50px;
   }
   
   .name {
